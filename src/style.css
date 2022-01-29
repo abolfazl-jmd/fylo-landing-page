@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--white-color);
+}
+
+:root {
+  --primary-dark-blue-intro: #1c2431;
+  --primary-dark-blue-bg: #181f2a;
+  --footer-bg: #0b1523;
+  --testimonials-bg: #0b1523;
+  --white-color: #ffffff;
+  --call-to-action1: #65e2d9;
+  --call-to-action1: #339ecc;
+  --error-light-red: #ff4242;
+  --headings-font-family: "Raleway", sans-serif;
+  --body-font-family: "Open Sans", sans-serif;
+  --text-regular-weight: 400;
+  --text-bold-weight: 700;
+}
+
+.center {
+  display: flex;
+}
+
+/* Navbar Design  */
+
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: var(--primary-dark-blue-intro);
+}
+
+.logo__wrapper {
+  flex: 1;
+}
+
+.logo {
+  width: 13rem;
+}
+
+.nav__items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__items .nav__item {
+  color: var(--white-color);
+  font-size: 2rem;
+  font-family: var(--headings-font-family);
+  font-weight: var(--text-regular-weight);
+}
+
+/* ---------------------------------- Intro section design ------------------------ */
+.intro__section {
+  font-family: var(--headings-font-family);
+  background: var(--primary-dark-blue-intro);
+}
+
+.intro__wrapper {
+  text-align: center;
+  z-index: 10;
+}
+
+.intro__image {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.intro__text {
+  padding: 0 5rem;
+}
+
+.intro__text--title {
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+.intro__text--description {
+  font-size: 2rem;
+  line-height: 3rem;
+  /* margin: 2rem; */
+}
+
+.intro__img {
+  width: 100%;
+}
+
+.btn {
+  color: var(--white-color);
+  display: inline-block;
+  width: 60%;
+  padding: 2rem 0;
+  margin: 1.5rem 0;
+  font-family: var(--headings-font-family);
+  font-weight: var(--text-bold-weight);
+  font-size: 1.8rem;
+  border-radius: 5rem;
+  background: linear-gradient(135deg, #65e2d9, #339ecc);
+}
+
+/* ------------------------------------------ END OF INTRO SECTION AND NAVBAR DESIGN -------------------------------------------------- */
