@@ -591,4 +591,19 @@ html {
     width: 70%;
     transform: translate(-50%, -50%);
   }
+  .productive__img {
+    width: 80%;
+  }
+  .intro__img {
+    width: 50%;
+  }
+  .form__wrapper {
+    flex-direction: row;
+  }
+  .email__input {
+    width: 90%;
+  }
+  .btn__submit {
+    width: 40%;
+  }
 }
